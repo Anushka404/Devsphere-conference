@@ -28,9 +28,9 @@
         <div>
           <h2 class="text-lg font-semibold text-gray-900 dark:text-white">Follow Us</h2>
           <div class="mt-2 flex space-x-4">
-            <a href="#" class="hover:text-blue-500">🐦 Twitter</a>
-            <a href="#" class="hover:text-blue-500">📘 Facebook</a>
-            <a href="#" class="hover:text-blue-500">📷 Instagram</a>
+            <a href="/" class="hover:text-blue-500">🐦 Twitter</a>
+            <a href="/" class="hover:text-blue-500">📘 Facebook</a>
+            <a href="/" class="hover:text-blue-500">📷 Instagram</a>
           </div>
         </div>
   
