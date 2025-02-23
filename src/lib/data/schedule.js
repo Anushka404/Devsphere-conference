@@ -8,15 +8,15 @@ export const schedule = [
         image: "/images/Emma.png", 
         description: "Artificial Intelligence is evolving at an unprecedented pace, shaping industries and transforming everyday life. This session will explore the latest breakthroughs in AI, including advancements in machine learning, natural language processing, and computer vision. We will also discuss the ethical considerations surrounding AI, its potential risks, and how businesses can leverage AI-driven solutions to stay competitive in an increasingly automated world. The future of AI is not just about efficiency—it’s about reshaping the way we interact with technology and each other." 
       },
-      { 
-        day:1,
-        date: "27 February 2025", 
-        time: "10:00 AM - 10:45 AM", 
-        topic: "Cybersecurity Trends", 
-        speaker: "JOHN KELT", 
-        image: "/images/John Wick.jpg", 
-        description: "As digital transformation accelerates, cyber threats are becoming more sophisticated and frequent. In this session, cybersecurity expert John Kelt will discuss the most pressing cybersecurity challenges businesses face today, from ransomware attacks to data breaches. We will explore the latest security frameworks, zero-trust architectures, and AI-driven threat detection technologies that can help mitigate risks. Learn how organizations can build a cyber-resilient infrastructure and stay ahead in an era of increasing cyber warfare and regulatory requirements." 
-      },
+      // { 
+      //   day:1,
+      //   date: "27 February 2025", 
+      //   time: "10:00 AM - 10:45 AM", 
+      //   topic: "Cybersecurity Trends", 
+      //   speaker: "JOHN KELT", 
+      //   image: "/images/John Wick.jpg", 
+      //   description: "As digital transformation accelerates, cyber threats are becoming more sophisticated and frequent. In this session, cybersecurity expert John Kelt will discuss the most pressing cybersecurity challenges businesses face today, from ransomware attacks to data breaches. We will explore the latest security frameworks, zero-trust architectures, and AI-driven threat detection technologies that can help mitigate risks. Learn how organizations can build a cyber-resilient infrastructure and stay ahead in an era of increasing cyber warfare and regulatory requirements." 
+      // },
       { 
         day:2,
         date: "28 February 2025", 
@@ -35,15 +35,15 @@ export const schedule = [
         image: "/images/speaker5.png", 
         description: "The space industry is undergoing a renaissance, with private companies and governments pushing the boundaries of exploration. In this session, we will discuss the latest advancements in space technology, including reusable rocket systems, space tourism, and deep-space exploration missions. From Mars colonization plans to the development of space-based solar power, we’ll explore how technological innovations are making space more accessible and how these advancements will impact humanity’s future beyond Earth." 
       },
-      { 
-        day:3,
-        date: "1 March 2025", 
-        time: "10:00 AM - 10:45 AM", 
-        topic: "AI Ethics & Responsibility", 
-        speaker: "SOPHIA LEE", 
-        image: "/images/speaker7.png", 
-        description: "As AI becomes deeply integrated into various aspects of society, ethical concerns surrounding bias, privacy, and accountability are growing. This session will explore the moral implications of AI development and deployment, including issues of transparency, fairness, and human oversight. Learn how organizations can implement responsible AI frameworks to ensure that artificial intelligence serves humanity in a fair and unbiased manner while minimizing unintended consequences." 
-      },
+      // { 
+      //   day:3,
+      //   date: "1 March 2025", 
+      //   time: "10:00 AM - 10:45 AM", 
+      //   topic: "AI Ethics & Responsibility", 
+      //   speaker: "SOPHIA LEE", 
+      //   image: "/images/speaker7.png", 
+      //   description: "As AI becomes deeply integrated into various aspects of society, ethical concerns surrounding bias, privacy, and accountability are growing. This session will explore the moral implications of AI development and deployment, including issues of transparency, fairness, and human oversight. Learn how organizations can implement responsible AI frameworks to ensure that artificial intelligence serves humanity in a fair and unbiased manner while minimizing unintended consequences." 
+      // },
       { 
         day:3,
         date: "1 March 2025", 
@@ -62,15 +62,15 @@ export const schedule = [
         image: "/images/speaker7.png", 
         description: "Blockchain technology is transforming industries beyond just finance, paving the way for a decentralized digital economy. This session will cover the evolution of blockchain, the rise of decentralized finance (DeFi), non-fungible tokens (NFTs), and the impact of Web3 on online interactions. Discover how businesses and individuals can leverage blockchain for increased security, transparency, and autonomy in a world increasingly moving away from traditional centralized systems." 
       },
-      { 
-        day:4,
-        date: "2 March 2025", 
-        time: "03:00 PM - 03:45 PM", 
-        topic: "The Rise of Quantum Computing", 
-        speaker: "LIAM WILSON", 
-        image: "/images/speaker8.png", 
-        description: "Quantum computing is no longer a distant dream—it’s becoming a reality. This session will introduce the fundamentals of quantum computing, explaining how it differs from classical computing and its potential to revolutionize fields such as cryptography, materials science, and artificial intelligence. Learn about recent breakthroughs in quantum hardware and algorithms, and understand what challenges remain before this technology can be widely adopted." 
-      },
+      // { 
+      //   day:4,
+      //   date: "2 March 2025", 
+      //   time: "03:00 PM - 03:45 PM", 
+      //   topic: "The Rise of Quantum Computing", 
+      //   speaker: "LIAM WILSON", 
+      //   image: "/images/speaker8.png", 
+      //   description: "Quantum computing is no longer a distant dream—it’s becoming a reality. This session will introduce the fundamentals of quantum computing, explaining how it differs from classical computing and its potential to revolutionize fields such as cryptography, materials science, and artificial intelligence. Learn about recent breakthroughs in quantum hardware and algorithms, and understand what challenges remain before this technology can be widely adopted." 
+      // },
       { 
         day:5,
         date: "3 March 2025", 

@@ -3,6 +3,7 @@
     import { speakers } from '$lib/data/speakers';
     import {schedule} from '$lib/data/schedule';
   import ScheduleCard from '$lib/components/ScheduleCard.svelte';
+  import LocationCard from '$lib/components/LocationCard.svelte'
 
 
     let selectedDay = "Day 1";
@@ -50,7 +51,7 @@
 
     </div>
     <ScheduleCard/>
-    
+    <LocationCard />
   </section>
   
   
