@@ -22,7 +22,7 @@ A fictional tech conference website built with **SvelteKit** and **Tailwind CSS*
 
 1. **Clone the Repository**
    ```bash
-   git clone [https://github.com/yourusername/devsphere-conference.git]
+   git clone https://github.com/yourusername/devsphere-conference.git
    cd devsphere-conference
    ```
 
