@@ -8,7 +8,7 @@ flex flex-col gap-4 sm:gap-8 justify-center items-center">
     <p><b class="pr-2">Email</b> dev_sphere@gmail.com </p>
 
     <p><b class="pr-2">Twitter</b> 
-      <a class="text-violet-400" target="_blank" href="#">
+      <a class="!text-violet-400" target="_blank" href="https://x.com/?lang=en">
         DevSphere<sup>
           <span class="text-sm scale-75 pl-0.5">
             <i
@@ -21,7 +21,7 @@ flex flex-col gap-4 sm:gap-8 justify-center items-center">
      </p>
 
      <p><b class="pr-2">LinkdIn</b> 
-      <a class="text-violet-400" target="_blank" href="#">
+      <a class="!text-violet-400" target="_blank" href="https://www.linkedin.com/">
         DevSphere<sup>
           <span class="text-sm scale-75 pl-0.5">
             <i

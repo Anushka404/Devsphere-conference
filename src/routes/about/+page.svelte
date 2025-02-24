@@ -18,7 +18,7 @@
       offers unparalleled <span class="text-violet-300">learning, networking, and collaboration opportunities.</span>
     </p>
   
-    <a href="/" class="mx-auto px-6 py-3 rounded-md bg-violet-600 text-white hover:bg-violet-700 
+    <a href="/" class="mx-auto px-6 py-3 rounded-md bg-violet-600 !text-white hover:bg-violet-700 
        transition-all duration-200 text-lg font-medium mt-6">
       Get Your Ticket
     </a>

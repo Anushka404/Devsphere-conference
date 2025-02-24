@@ -1,5 +1,4 @@
 <script>
-    export let title = "Devsphere Conference 2025";
     export let subtitle = "A must-attend event for developers and tech innovators.";
     export let date = "27/02/2025 - 28/02/2025";
 
@@ -21,7 +20,7 @@
                 </h2>
                 <p class="text-lg py-5 pb-5 text-gray-300">{subtitle}</p>
 
-                <a class="blueShadow lg:mr-auto text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 mb-6">
+                <a href="/contact" class="blueShadow lg:mr-auto text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 mb-6">
                     <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
                     <h4 class="relative z-9 text-black font-medium">Register Now &rarr;</h4>
                 </a>
@@ -36,26 +35,27 @@
         <CountdownTimer /> 
     </div>
 
-    <!--Speakers Section-->
 <section class="py-16 text-center">
-    <!-- <h2 class="text-5xl font-bold text-gray-900 dark:text-white">Keynote Speakers</h2> -->
-
     <!--First Row: -->
-    <div class="grid grid-cols-1 md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-2 gap-x-12 px-6 mt-12 items-center">
+    <div class="flex flex-col-reverse md:flex-row gap-x-12 px-6 mt-12 items-center">
         <div class="grid grid-cols-2 gap-6">
             {#each speakers.slice(0, 2) as speaker}
                 <SpeakerCard name={speaker.name} title={speaker.title} image={speaker.image} />
             {/each}
         </div>
-        <div class="md:col-span-1 lg:col-span-1 text-left lg:pl-8">
-            <h3 class="text-5xl font-bold text-gray-900  dark:text-white">Our
-                <span class="bg-gradient-to-b from-violet-200 to-violet-700 text-transparent bg-clip-text">Keynote Speakers</span> </h3>
-            <p class="text-lg text-gray-600 dark:text-gray-400 mt-4 leading-relaxed">
+        <div class="md:w-1/2 text-left lg:pl-8">
+            <h3 class="text-5xl font-bold text-gray-900 dark:text-white">
+                Our
+                <span class="bg-gradient-to-b from-violet-200 to-violet-700 text-transparent bg-clip-text">
+                    Keynote Speakers
+                </span>
+            </h3>
+            <p class="text-lg mb-5 text-gray-600 dark:text-gray-400 mt-4 leading-relaxed">
                 Industry leaders and innovators sharing their insights at Devsphere Conference 2025.
             </p>
         </div>
     </div>
-
+    
     <!--Second Row-->
     <div class="grid grid-cols-2 md:grid-cols-4 gap-8 px-6 mt-12">
         {#each speakers.slice(2, 6) as speaker}
@@ -63,16 +63,15 @@
         {/each}
     </div>
 
-    <!--Third Row-->
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-x-23 px-0 mt-12 items-center">
-        <div class="hidden lg:block"></div> <!-- Empty space to push cards to the right -->
-        <div class="grid grid-cols-2 lg:gap-0 gap-5 lg:col-span-2 justify-end">
-            {#each speakers.slice(6, 8) as speaker}
-                <SpeakerCard name={speaker.name} title={speaker.title} image={speaker.image} />
-            {/each}
-        </div>
+    <!-- Third Row -->
+    <div class="flex justify-end mt-12 px-6">
+    <div class="grid grid-cols-2 gap-6">
+        {#each speakers.slice(6, 8) as speaker}
+            <SpeakerCard name={speaker.name} title={speaker.title} image={speaker.image} />
+        {/each}
     </div>
-
+    </div>
+    
 </section>
 
 

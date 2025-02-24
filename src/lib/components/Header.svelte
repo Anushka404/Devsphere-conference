@@ -12,9 +12,10 @@
 <header class={'sticky z-[10] top-0 duration-200 px-6 flex items-center justify-between border border-solid ' +
      (y > 0 ? 'py-4 bg-slate-950 border-violet-950' : 'py-6 bg-transparent border-transparent')}>
     
-    <h1 class="font-medium ">
-        <b class="font-bold poppins">DevSphere</b> Conference
-    </h1>
+    <a href="/">
+    <h1 class="font-medium text-white ">
+        <b class="font-bold poppins text-white">DevSphere</b> Conference
+    </h1></a>
     
     <div class="flex items-center gap-6">
         <div class=" sm:flex items-center gap-6 hidden">

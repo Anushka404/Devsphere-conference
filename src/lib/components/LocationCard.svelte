@@ -22,10 +22,5 @@
       </iframe>
     </div>
   
-    <a href="https://goo.gl/maps/UwqhD2w9xYkZ7gM68" target="_blank"
-      class="mx-auto px-6 py-3 rounded-md border border-solid border-white flex items-center gap-2 hover:border-violet-700 duration-200">
-      <i class="fa-solid fa-location-dot"></i>
-      <p>View on Google Maps</p>
-    </a>
   </section>
   
